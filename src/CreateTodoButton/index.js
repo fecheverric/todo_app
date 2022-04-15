@@ -1,5 +1,6 @@
 import React from 'react';
 import './CreateTodoButton.css';
+import { TiPlus } from 'react-icons/ti';
 
 
 function CreateTodoButton({ setOpenModal, openModal }) {
@@ -13,9 +14,10 @@ function CreateTodoButton({ setOpenModal, openModal }) {
 
     return (
     <button className="CreateTodoButton" onClick={() => onClickButton()}>
-        +
+        <TiPlus />
     </button>
     );
 }
 
 export { CreateTodoButton };
+

@@ -1,11 +1,15 @@
+.TodoSearch-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .TodoSearch {
     background: #F9FBFC;
-    border-radius: 2px;
-    border: 2px solid #202329;
-    margin: 0 24px;
+    border-radius: 12px;
+    border: 1px solid #8491ac;
     height: 64px;
-    width: calc(100% - 62px);
-    font-size: 24px;
+    width: 60%;
+    font-size: 18px;
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 400;

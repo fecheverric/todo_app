@@ -8,6 +8,16 @@ form {
     flex-direction: column;
 }
 
+.form-icon {
+    justify-content: center;
+}
+
+.form-icon h1 {
+    color: #1E1E1F;
+    text-align: center;
+    font-size: 50px;
+}
+
 label {
     text-align: center;
     font-weight: bold;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { TodoContext } from '../TodoContext';
 import './TodoForm.css';
+import { FaTasks } from 'react-icons/fa';
 
 
 function TodoForm() {
@@ -28,6 +29,9 @@ function TodoForm() {
 
     return (
         <form onSubmit={onSubmit}>
+            <div className='form-icon'>
+                <h1><FaTasks /></h1>
+            </div>
             <label>Escribe tus cosas por hacer</label>
             <textarea
                 value={newTodoValue}
